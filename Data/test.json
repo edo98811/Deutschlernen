@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "front": "Hello",
+      "back": "Hola",
+      "confidence": 0
+    },
+    {
+      "id": "2",
+      "front": "Goodbye",
+      "back": "Adiós",
+      "confidence": 0
+    }
+  ]
+} 

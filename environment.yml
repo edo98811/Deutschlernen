@@ -1,0 +1,16 @@
+name: pyqt_app_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pyqt=6
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - requests
+  - pip:
+      # Optional: you can add any pip-only packages here
+      - pyqtgraph  # great for interactive plotting in PyQt
+      - qtawesome  # icons for PyQt apps
