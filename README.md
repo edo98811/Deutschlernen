@@ -14,10 +14,10 @@ Methods:
   - update_word(cardset_name: str, card_id: str, confidence: int)
 
 
-Flashcard logic is in flashcard.py
+Flashcard logic is in flashcard.py. 
+A dataclass is used to store the current cardset.
 
-Methods:
-Arguments: 
+Props:
 
    - CardSetName: str = ""
    - Cards: list | None = None
